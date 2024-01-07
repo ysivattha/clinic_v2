@@ -1,0 +1,104 @@
+@font-face{
+    font-family: khmoul;
+    src: url('../fonts/KhmerOSmuollight.ttf');
+}
+@font-face{
+    font-family: kh;
+    src: url('../fonts/KhmerOSsiemreap.ttf');
+}
+
+body,p,div,span,li,a,form,input,label,button, th, td,
+h1, h2, h3, h4, h5, h6{
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol", kh;
+}
+body,p,div,span,li,a,form,input,label,button, th, td{
+    font-size: 13px;
+}
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+textarea.form-control {
+    height: auto;
+    font-size: 13px;
+}
+.input-xs {
+    height: 26px;
+    padding: 2px 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn, label , div, p, table{
+    font-size: 13px;
+}
+.main-sidebar, .main-sidebar::before {
+    transition: margin-left .3s ease-in-out,width .3s ease-in-out;
+    width: 200px;
+}
+.layout-fixed .brand-link {
+    width: 200px;
+}
+.modal-dialog {
+    max-width: 720px;
+}
+.ui-dialog .ui-dialog-titlebar {
+
+    background: #27a744;
+    color: #fff;
+}
+.ui-dialog .ui-dialog-content {
+    background: #ffc4c9!important;
+}
+@media (min-width: 768px){
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 200px;
+}
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: .3rem 0.75rem;
+    border-top: 1px solid #e9ecef;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+}
+.toolbox{
+    background: #f0f3f6;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.modal-header {
+    padding: 9px 18px;
+}
+.myactive{
+    background-color: #4e5761;
+}
+.card-body{
+    padding-top: 9px;
+}
+.datatable thead tr th:first-child{
+    width: 27px;
+}
+.datatable tbody tr td:last-child{
+    width: 120px;
+    text-align: center;
+}
+.page-link {
+    padding: 4px 9px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+}
